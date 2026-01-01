@@ -1,0 +1,14 @@
+[project]
+name = "inmemory-todo"
+version = "1.0.0"
+description = "In-Memory Todo Console Application - Phase I"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todo = "src.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
